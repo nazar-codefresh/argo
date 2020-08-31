@@ -14,7 +14,7 @@ spec:
         app: testapi-nazar
     spec:
       containers:
-        - image: nazarcodefresh/argo:master
+        - image: nazarcodefresh/argo:5f4d1a497f02def08ccf9018
           name: testapi-nazar
           ports:
             - containerPort: 1700
